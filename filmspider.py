@@ -31,7 +31,7 @@ def getfilmDict():
 
 
 import pymongo
-from bson.objectid import ObjectId
+#from bson.objectid import ObjectId
 
 client = pymongo.MongoClient('mongodb://account:password@207.0.0.1:27017/')
 db = client.test
